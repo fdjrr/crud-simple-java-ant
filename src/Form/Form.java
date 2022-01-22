@@ -337,7 +337,7 @@ public class Form extends javax.swing.JFrame {
         try {
             UIManager.setLookAndFeel( new FlatLightLaf() );
         } catch( Exception ex ) {
-            System.err.println( "Failed to initialize LaF" );
+            System.err.println( "Failed to initialize FlatLightLaf" );
         }
 
 
